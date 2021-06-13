@@ -1,3 +1,6 @@
-Martina Moser - FRONTEND I - Certified Tech Developer
+#FRONTEND I
+##Certified Tech Developer - Digital House
+###Trabajos prácticos clases sincrónicas
 
-Github pages: 
+
+Github pages: https://martumoser.github.io/Certified-Tech-Developer-DH/
