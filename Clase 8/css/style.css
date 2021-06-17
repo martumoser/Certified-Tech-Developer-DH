@@ -1,0 +1,35 @@
+body {
+  background: #ffff;
+  font-size: 16px;
+}
+
+header {
+  background-image: url("../img/background.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  /* height: 300px; */
+  text-align: center;
+}
+img {
+  width: 150px;
+  border: 2px solid #d2d1d1;
+}
+section {
+  max-width: 60%;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  margin: 2px;
+  padding: 5px;
+  font-size: 48px;
+}
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+h3 {
+  font-size: 18px;
+}
