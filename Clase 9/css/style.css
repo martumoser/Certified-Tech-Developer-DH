@@ -1,0 +1,36 @@
+footer {
+  width: 1024px;
+  height: 301px;
+  background-color: #3c2313;
+}
+#top-header {
+  height: 20px;
+  background-color: #222222;
+}
+span {
+  color: white;
+}
+#span1 {
+  padding-left: 80px;
+}
+#span2,
+#span3 {
+  text-align: right;
+}
+nav {
+  height: 62px;
+  background-color: #f0a83e;
+}
+img #logo  {
+    padding-right: 70px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fa-paw {
+    padding: 0px 20px;
+}
+#iconos {
+    /* text-align: right; */
+    margin-bottom: 20px;
+}
