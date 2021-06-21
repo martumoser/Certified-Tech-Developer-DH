@@ -3,16 +3,19 @@
   box-sizing: border-box;
   background: #f2eeee;
 }
+
 body {
   margin: 0;
   font-family: "Amatic SC", cursive;
 }
 
 /*Encabezado*/
+
 header {
   margin: 0 auto;
   width: 100%;
 }
+
 .title {
   width: 65%;
   padding: 20px;
@@ -20,16 +23,19 @@ header {
   margin: 0 auto;
   top: 25px;
 }
+
 h1 {
   font-weight: 700;
   font-style: normal;
 }
+
 h2 {
   font-size: 50px;
   font-weight: bolder;
   text-decoration: solid;
   margin-bottom: 15px;
 }
+
 .name {
   font-style: normal;
   font-weight: normal;
@@ -38,10 +44,12 @@ h2 {
 }
 
 /*Botones*/
+
 .button {
   margin: 0 auto;
   width: 25%;
 }
+
 button {
   margin: 20px auto;
   width: 100%;
@@ -52,18 +60,17 @@ button {
   color: rgb(148, 146, 146);
   cursor: pointer;
 }
-#c4,
-#c5,
-#c6,
-#c7,
-#c8 {
+
+#c4, #c5, #c6, #c7, #c8, #c10 {
   background-color: rgb(247, 221, 189);
 }
 
 /*Lineas*/
+
 .hr1 {
   border: 2px solid;
 }
+
 hr {
   width: 50%;
   margin: 0 auto;
