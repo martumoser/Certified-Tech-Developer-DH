@@ -1,0 +1,73 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    height: 100px;
+}
+
+header li {
+    list-style: none;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    color: white;
+}
+#right {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+#left {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+#rojo {
+    color: red
+}
+.blanco {
+    color: white;
+}
+#verde {
+    color: green;
+    padding-left: 10px;
+}
+span {
+    font-size: 24px;
+    font-weight: bold;
+}
+#card1 {
+    /* position: relative; */
+    display: flex;
+}
+#card1 p {
+    position: absolute;
+    padding-left: 20px;
+    font-size: 24px;
+    color: red;
+}
+#card2 {
+    display: flex;
+}
+#pizza {
+    position: absolute;
+    right: 74px;
+    bottom: 89px;
+}
+main {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 5px;
+    padding: 35px 19px;
+}
+#card2 p {
+    position: absolute;
+    font-size: 24px;
+    color: red;
+}
