@@ -9,65 +9,107 @@ header {
     height: 100px;
 }
 
-header li {
+header li,
+footer li {
     list-style: none;
 }
+
 ul {
     display: flex;
     flex-direction: row;
     gap: 13px;
-    color: white;
+    color: #ffffff;
 }
+
 #right {
     display: flex;
     align-items: center;
     padding-right: 20px;
 }
+
 #left {
     display: flex;
     align-items: center;
     padding-left: 20px;
 }
+
 #rojo {
-    color: red
+    color: #ff0000;
 }
+
 .blanco {
-    color: white;
+    color: #ffffff;
 }
+
 #verde {
-    color: green;
+    color: #008000;
     padding-left: 10px;
 }
+
 span {
     font-size: 24px;
     font-weight: bold;
 }
-#card1 {
-    /* position: relative; */
+
+main {
     display: flex;
+    gap: 5px;
+    background-color: #e5e5e5;
+    padding: 35px 19px;
 }
-#card1 p {
+
+#card1 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+#card1>img {
+    border-radius: 15px;
+}
+
+#card1 h2 {
     position: absolute;
     padding-left: 20px;
     font-size: 24px;
-    color: red;
+    color: #ff0000;
 }
+
 #card2 {
-    display: flex;
+    width: 490px;
+    background-color: #ffffff;
+    border-radius: 15px;
 }
-#pizza {
-    position: absolute;
-    right: 74px;
-    bottom: 89px;
-}
-main {
-    display: flex;
-    /* justify-content: space-between; */
-    gap: 5px;
-    padding: 35px 19px;
-}
-#card2 p {
-    position: absolute;
+
+#card2 h2 {
     font-size: 24px;
-    color: red;
+    color: #ff0000;
+    text-align: center;
+}
+
+#card2>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222222;
+}
+
+footer ul {
+    flex-direction: column;
+}
+
+footer #left {
+    padding-right: 30px;
 }
