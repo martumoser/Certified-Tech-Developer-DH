@@ -1,35 +1,60 @@
 body {
-  background: #ffff;
-  font-size: 16px;
+    background: #ffff;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 header {
-  background-image: url("../img/background.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  /* height: 300px; */
-  text-align: center;
+    background-image: url("../img/background.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
 }
+
 img {
-  width: 150px;
-  border: 2px solid #d2d1d1;
+    width: 150px;
+    border: 2px solid #d2d1d1;
 }
+
 section {
-  max-width: 60%;
-  margin: auto;
+    max-width: 60%;
+    margin: auto;
 }
 
 h1 {
-  font-family: "Raleway", sans-serif;
-  margin: 2px;
-  padding: 5px;
-  font-size: 48px;
+    font-family: "Raleway", sans-serif;
+    margin: 2px;
+    padding: 5px;
+    font-size: 48px;
 }
+
 h2 {
-  font-family: "Raleway", sans-serif;
-  font-size: 24px;
-  text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    text-align: center;
 }
+
 h3 {
-  font-size: 18px;
+    font-size: 18px;
+}
+
+footer img {
+    width: 50px;
+    border: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+footer hr {
+    border: 1px solid #e5e5e6e7;
 }

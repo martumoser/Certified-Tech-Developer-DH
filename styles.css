@@ -63,7 +63,6 @@ button {
     cursor: pointer;
 }
 
-#c4,
 #c5,
 #c6,
 #c7,
@@ -71,6 +70,13 @@ button {
 #c10,
 #c11 {
     background-color: rgb(247, 221, 189);
+}
+
+footer p {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 
