@@ -1,101 +1,108 @@
 * {
-  box-sizing: border-box;
-  margin: 0px;
+    box-sizing: border-box;
+    margin: 0px;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 #bar-discount {
-  background-color: #1cd1b0;
-  height: 38px;
-  padding: 10px;
+    background-color: #1cd1b0;
+    height: 38px;
+    padding: 10px;
 }
 
 #bar-discount p {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 header {
-  height: 101px;
-  padding: 28px;
-  background-color: #00669f;
-  position: sticky;
-  top: 0;
-  z-index: 2;
+    height: 101px;
+    padding: 28px;
+    background-color: #00669f;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 h1 {
-  font-size: 40px;
+    font-size: 40px;
 }
 
-main {
-  width: 960px;
-  height: 532px;
-  position: relative;
-  margin: 150px 32px;
+.main-div {
+    margin-left: 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .card {
-  position: absolute;
-  width: 300px;
-  height: 529px;
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 529px;
+    margin-right: 32px;
 }
 
 #background {
-  width: 300px;
-  height: 193px;
-  bottom: 335px;
-  position: absolute;
+    width: 300px;
+    height: 193px;
+    bottom: 335px;
+    position: absolute;
 }
 
 #foto-perfil {
-  border-radius: 50%;
-  position: absolute;
-  top: 128px;
-  left: 90px;
-  z-index: 1;
+    border-radius: 50%;
+    position: absolute;
+    top: 128px;
+    left: 90px;
+    z-index: 1;
 }
 
 #like {
-  position: absolute;
-  top: 15.88px;
-  left: 21px;
-  z-index: 1;
+    position: absolute;
+    top: 15.88px;
+    left: 21px;
+    z-index: 1;
 }
 
 #body {
-  background-color: #E5E5E5;
-  width: 300px;
-  height: 336px;
-  position: absolute;
-  top: 192px;
+    background-color: #e5e5e5;
+    width: 300px;
+    height: 336px;
+    position: absolute;
+    top: 192px;
 }
 
 h2 {
-  position: absolute;
-  font-size: 30px;
-  text-align: center;
-  bottom: 227px;
-  left: 89px;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    bottom: 227px;
+    left: 89px;
 }
 
 .descripcion {
-  position: absolute;
-  bottom: 104px;
-  left: 16px;
+    position: absolute;
+    bottom: 104px;
+    left: 16px;
 }
 
 button {
-  background-color: #00669f;
-  color: white;
-  position: absolute;
-  bottom: 18.48px;
-  left: 85px;
+    background-color: #00669f;
+    color: white;
+    position: absolute;
+    bottom: 18.48px;
+    left: 85px;
 }
 
 button p {
-  padding: 15px 37px;
-  font-size: 15px;
+    padding: 15px 37px;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #00669F;
+    padding: 15px 30px;
+    color: #ffffff;
 }
