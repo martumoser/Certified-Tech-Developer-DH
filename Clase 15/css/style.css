@@ -20,8 +20,6 @@ body {
     padding-right: 50px;
 }
 
-footer {}
-
 #span1 {
     padding-left: 80px;
 }
@@ -116,6 +114,7 @@ h3 {
     padding: 10px;
     color: #3c2313;
     font-size: 40px;
+    text-align: center;
 }
 
 ul li {
@@ -166,17 +165,24 @@ p {
     height: 60px;
 }
 
-span {
+#suscripcion span {
     font-size: 20px;
     padding: 10px;
     width: 70%;
+}
+
+#suscripcion div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 input {
     border-radius: 10px;
     background-color: #ffffff;
     height: 40px;
-    width: 20%;
+    width: 50%;
     border: 0px;
 }
 
@@ -207,7 +213,7 @@ input {
 }
 
 .detalles p {
-    color: #8A8787;
+    color: #8a8787;
     font-size: 10px;
     padding: 0px;
     text-align: left;
@@ -224,4 +230,63 @@ footer {
     text-align: center;
     font-size: 10px;
     padding: 10px;
+}
+
+@media (max-width: 480px) {
+    .productos {
+        flex-direction: column;
+        align-items: center;
+    }
+    .productos div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+        margin: 10px;
+    }
+    #top-header {
+        display: none;
+    }
+    #iconos> :nth-child(2) {
+        display: none;
+    }
+    #banner div {
+        top: 25px;
+        right: 25px;
+    }
+    h1 {
+        background-color: #ffffff;
+        padding: 10px;
+        font-size: 20px;
+    }
+    h2 {
+        text-align: right;
+        font-size: 16px;
+        padding: 5px 0px;
+    }
+    #banner button {
+        right: 30px;
+        width: 100px;
+        height: 35px;
+    }
+    #suscripcion {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100px;
+    }
+    #suscripcion span {
+        width: auto;
+    }
+    #suscripcion button {
+        margin: 0px 10px;
+    }
+    #suscripcion div {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 10px;
+    }
+    input {
+        width: 50%;
+    }
 }
