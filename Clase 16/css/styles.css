@@ -40,7 +40,8 @@ form {
     padding: 80px;
 }
 
-input {
+input,
+select {
     margin: 10px;
     height: 50px;
     width: 50%;
@@ -67,7 +68,19 @@ input {
 
 .formulario a {
     color: #00669f;
-    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.buttons {
+    display: flex;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:first-child {
+    background-color: #888888;
 }
 
 footer {
